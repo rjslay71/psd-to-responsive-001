@@ -2,7 +2,7 @@
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
 }
 
-body, ul, li{
+body, ul, li {
 	margin: 0;
 	padding: 0;
 }
@@ -15,57 +15,57 @@ body{
 	background: #f7f7f7;
 }
 
-.wrapper{
+.wrapper {
 	width: 96%;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 2%;
 }
 
-header{
+header {
 	background: #e5e5e5;
 	padding: 20px 0;
 }
 
-header h1{
+header h1 {
 	margin: 0;
 	text-indent: -10000px;
-	background: url(image/logo.png) no-repeat;
+	background: url(creative-resources/image/logo.png) no-repeat;
 	width: 130px;
 	float: left;  
 }
 
-header nav{
+header nav {
 	float: right;
 }
 
-header:after{
+header:after {
 	display: block;
 	content: "";
 	clear: both;
 }
 
-header nav h2{
+header nav h2 {
 	line-height: 0;
 	margin: 0;
 	text-indent: -10000px;
 }
 
-header nav li{
+header nav li {
 	list-style-type: none;
 	float: left;
 	margin-left: 20px;
 	margin-top: 10px;
 }
 
-header nav li a{
+header nav li a {
 	text-decoration: none;
 	color: #4e4e4e;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-header nav li a.current{
+header nav li a.current {
 	color: #1abb9c;
 }
 
@@ -148,7 +148,7 @@ p.tags{
 	margin-top: 60px;
 	width: 60%;
 	padding: 40px 20%;
-	background: url(images/quote.png) no-repeat center 20px; 
+	background: url(creative-resources/images/quote.png) no-repeat center 20px; 
 	background-color: #efefef;
 	color: #4e4e4e;
 	font-size: 20px;
@@ -191,7 +191,7 @@ footer li{
 
 footer li.tw{
 	padding-left: 20px;
-	background: url(images/tweet.png) no-repeat left 6px;
+	background: url(creative-resources/images/tweet.png) no-repeat left 6px;
 }
 
 #copyright{
@@ -204,6 +204,73 @@ footer li.tw{
 	color: #999;
 	font-size: 14px;
 }
+
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 960px){
+	
+	#selling-points li{
+		width: 40%;
+		padding: 0 5%;
+		margin: 20px 0;
+}
+	
+	footer ul{
+		width: 50%;
+}	
+	
+	footer ul:nth-child(odd){
+		clear: both;
+}
+
+	#qoute{
+		width: 90%;
+		padding: 40px 5%;
+}	
+
+	
+}
+
+@media screen and (max-width: 768px){
+	
+	header nav {
+		float: none;
+}
+
+	header nav li{
+		margin-left: 0;
+		width: 16.66%;
+		text-align: center;
+		font-size: 14px;
+	
+}
+
+	header h1.logo{
+		float: none;
+		margin: 0 auto 15px;
+}
+	
+	#latest-work li{
+		width: 60%;
+		margin: 30px 20% !important;
+}
+	
+	#latest-work h2{
+		text-align: center;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
