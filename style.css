@@ -1,5 +1,5 @@
 *{
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-family: Trebuchet MS; 
 }
 
 body, ul, li {
@@ -30,7 +30,7 @@ header {
 header h1 {
 	margin: 0;
 	text-indent: -10000px;
-	background: url(creative-resources/image/logo.png) no-repeat;
+	background: url(creative-resources/images/logo.png) no-repeat;
 	width: 130px;
 	float: left;  
 }
@@ -263,12 +263,32 @@ footer li.tw{
 }
 
 
+@media screen and (max-width: 480px){
+	
+	#selling-points li{
+		width: 80%;
+		padding: 0 10%;
+		margin: 20px 0;
+}
+
+	#latest-work li{
+		width: 80%;
+		margin: 30px 10%;
+	
+}
+	#quote{
+		font-size: 16px;
+		font-weight: bold;
+}
+
+footer ul{
+		width: 100%;
+		float: none;
+	border-top: 2px solid #333;
+}
 
 
-
-
-
-
+}
 
 
 
